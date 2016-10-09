@@ -5,7 +5,7 @@ int main() {
     int result=0;
     do{
         int j;
-        for(j=1;j<=20;j++){
+        for(j=19;j>=3;j--){
             result = i;
             if(i%j!=0){
                 result=0;
