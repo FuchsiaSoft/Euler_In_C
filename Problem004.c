@@ -22,7 +22,7 @@ int isPalindrome(int n) {
     do {
         forwardDigits[i]=n%10;
         backwardDigits[j]=n%10;
-        n = n / 10;
+        n/=10;
         i--;
         j++;
     }while(n>0);
