@@ -7,4 +7,5 @@ int main() {
         if(i%3 == 0 || i%5 ==0) x+=i;
     }
     printf("Answer is: %d\n", x);
+    //we changed something
 } 
